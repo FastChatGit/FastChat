@@ -5,12 +5,12 @@ const mongoose_1 = require("mongoose");
 const UserSchema = new mongoose_1.Schema({
     nickName: {
         type: String,
-        required: true,
-        unique: true
+        required: true
     },
     userEmail: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     password: {
         type: String,
