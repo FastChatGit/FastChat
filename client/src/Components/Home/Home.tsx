@@ -43,7 +43,7 @@ export default function Home(){
 
     // SOCKET CONNECTION 
     useEffect(() => {
-        socket.current = io('https://fastchat-production.up.railway.app/')
+        socket.current = io('https://fastchat-production-26db.up.railway.app/')
         socket.current?.on("userDisconnected",(data:userDisconnected)=>{
             dispatch(LAST_CONNECTION(data))
         })
