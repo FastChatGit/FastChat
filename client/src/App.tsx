@@ -13,7 +13,7 @@ import Redirrect from './Components/Login/Redirrect';
 
 initializeApp(firebaseConfig)
 
-axios.defaults.baseURL= process.env.REACT_APP_API || 'https://fastchat-production.up.railway.app' ||'http://localhost:3001'
+axios.defaults.baseURL= process.env.REACT_APP_API || 'https://fastchat-production-26db.up.railway.app/' ||'http://localhost:3001'
 
 function App() {
   return (
